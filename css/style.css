@@ -1,5 +1,10 @@
-#navbar {
+#navbar, #footer {
 	background-color: #FF5800;
+	color: white;
+}
+
+#footer p {
+	margin: 10px 0;
 }
 
 #ava-logo {
@@ -15,6 +20,35 @@ h1, h2 {
 	width: 150px;
 	object-fit: cover;
 	height: 150px;
+	object-position: center;
+}
+
+.image-small-inset {
+	height: 200px;
+	position: relative;
+}
+
+.image-large-inset {
+	height: 400px;
+	position: relative;
+}
+
+.image-small-inset p, .image-large-inset div {
+	width: 100%;
+	padding: 10px 10px;
+	vertical-align: bottom;
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+.image-small-inset img, .image-large-inset img {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
 	object-position: center;
 }
 

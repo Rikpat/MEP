@@ -1,0 +1,37 @@
+#navbar {
+	background-color: #FF5800;
+}
+
+#ava-logo {
+	height: 1.5em;
+	vertical-align: middle;
+}
+
+h1, h2 {
+	color: #FF5800;
+}
+
+.image-small {
+	width: 150px;
+	object-fit: cover;
+	height: 150px;
+	object-position: center;
+}
+
+#mep-logo {
+	background-image: url("../images/amep.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+
+.btn-avanade {
+	background-color: #FF5800;
+	color: white;
+}
+
+.btn-avanade:hover {
+	background-color: #DC4600;
+	color: white;
+}

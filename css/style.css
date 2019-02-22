@@ -59,7 +59,9 @@ h1, h2 {
 	background-position: center;
 	height: 400px;
 }
-
+#jumboman {
+	background-image: url("../images/Avanade_PatternLandscapeNoLogoRGB_Luminous.png");
+}
 .btn-avanade {
 	background-color: #FF5800;
 	color: white;

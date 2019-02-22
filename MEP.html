@@ -38,9 +38,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<p>We are a group of misfits from various locations, who started working together to make the world a better place.
-					<br>Nah, just kidding. We don't care about the world. [Write something about AMEP]
-					</p>
+					<h1>Modern Engineering</h1>
+					<div class="row">
+						<div class="col">
+							<button class="btn btn-light">Create Project</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<button class="btn btn-light">Request Support</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -191,12 +199,12 @@
 	  window.requestAnimationFrame(moveBackground);
 	}
 
-	$(window).on('mousemove click', function(e) {
+	$(".jumbotron").on('mousemove click', function(e) {
 
 	  var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
 	  var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
 	  lFollowX = (50 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
-	  lFollowY = (30 * lMouseY) / 100;
+	  lFollowY = (50 * lMouseY) / 100;
 
 	});
 

@@ -61,11 +61,11 @@ h1, h2 {
 }
 .jumbotron {
 	position: relative;
-	height: 500px;
+	height: 400px;
 	overflow: hidden;
 }
 .jumbotron > div {
-	height: 500px;
+	height: 400px;
 }
 #jumboman {
 	position: absolute;

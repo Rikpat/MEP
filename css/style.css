@@ -63,6 +63,7 @@ h1, h2 {
 	position: relative;
 	height: 400px;
 	overflow: hidden;
+	background: none;
 }
 .jumbotron > div {
 	height: 400px;

@@ -117,6 +117,7 @@ body {
 
 
 #mep {
+    font-size: 20px;
     background-image: url(../images/hexagon-orange.svg);
     color: #FF5800;
 }

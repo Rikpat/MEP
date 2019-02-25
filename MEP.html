@@ -10,35 +10,33 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<section>
-	<div class="jumbotron text-center mt-2">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h1>Modern Engineering</h1>
-					<div class="row">
-						<div class="col">
-							<button class="btn btn-light">Create Project</button>
-						</div>
-						<div class="col">
-							<button class="btn btn-light">Request Support</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="jumboman"></div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-6 text-left">
-				<h1>What is Modern Engineering?</h1>
-				<p>We provide foundations of digital transformation by adopting Agile & DevOps practices with Cloud Native Architecture, while constantly introducing new and improved accelerators to help you to excel in the fast-changing IT environment. 
-				</p>
-			</div>
-			<div class="col-6">
+<div id="jumboparent">
+    <div class="jumbotron text-center mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Modern Engineering</h1>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-light">Create Project</button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-light">Request Support</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 text-left">
+                <h1>What is Modern Engineering?</h1>
+                <p>
+                    We provide foundations of digital transformation by adopting Agile & DevOps practices with Cloud Native Architecture, while constantly introducing new and improved accelerators to help you to excel in the fast-changing IT environment.
+                </p>
+            </div>
+            <div class="col-6">
                 <div id="infographic">
                     <svg height="420" width="600">
                         <circle cx="35" cy="385" r="35" fill="#ff5800" />
@@ -88,47 +86,48 @@
                         </div>
                     </a>
                 </div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.3.1.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap-4.2.1.js"></script>
-<script>
-	var lFollowX = 0,
-		lFollowY = 0,
-		x = 0,
-		y = 0,
-		friction = 1 / 30;
+            </div>
+        </div>
+    </div>
+    <div id="jumboman"></div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.2.1.js"></script>
+    <script>
+        var lFollowX = 0,
+            lFollowY = 0,
+            x = 0,
+            y = 0,
+            friction = 1 / 30;
 
-	function moveBackground() {
-	  x += (lFollowX - x) * friction;
-	  y += (lFollowY - y) * friction;
-	  
-	  translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.5)';
+        function moveBackground() {
+            x += (lFollowX - x) * friction;
+            y += (lFollowY - y) * friction;
 
-	  $('#jumboman').css({
-		'-webit-transform': translate,
-		'-moz-transform': translate,
-		'transform': translate
-	  });
+            translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.5)';
 
-	  window.requestAnimationFrame(moveBackground);
-	}
+            $('#jumboman').css({
+                '-webit-transform': translate,
+                '-moz-transform': translate,
+                'transform': translate
+            });
 
-	$("body").on('mousemove click', function(e) {
+            window.requestAnimationFrame(moveBackground);
+        }
 
-	  var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
-	  var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-	  lFollowX = (50 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
-	  lFollowY = (50 * lMouseY) / 100;
+        $("body").on('mousemove click', function (e) {
 
-	});
+            var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+            var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+            lFollowX = (50 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+            lFollowY = (50 * lMouseY) / 100;
 
-	moveBackground();
-</script>
+        });
+
+        moveBackground();
+    </script>
 </body>
 </html>

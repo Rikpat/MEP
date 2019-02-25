@@ -1,14 +1,14 @@
 body {
     font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif!important;
 }
-.jumbotron {
+#jumboparent {
 	position: relative;
-	height: 400px;
+	height: 1080px;
 	overflow: hidden;
 	background: none;
 }
-.jumbotron > div {
-	height: 400px;
+#jumboparent > div {
+    background: none;
 }
 #jumboman {
 	position: absolute;

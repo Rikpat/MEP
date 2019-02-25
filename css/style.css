@@ -32,18 +32,21 @@ html {
 }
 
 .hexagon {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     background-image: url(../images/hexagon.svg);
     height: 150px;
     width: 150px;
     background-size:contain;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
 }
 
 .hexagon img {
     width: auto;
     height: 50%;
-    margin: auto;
 }
 
 .hexagon p {

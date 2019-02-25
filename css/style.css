@@ -57,6 +57,7 @@ body {
 .hexagon p {
     transition: inherit;
     font-size: 0px;
+    user-select: none;
 }
 
 .hexagon:hover {

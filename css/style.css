@@ -32,6 +32,8 @@ body {
 }
 
 .hexagon, #mep{
+    left: 0px;
+    top: 0px;
     transition: .3s linear all;
     position: absolute;
     display: inline-flex;
@@ -70,8 +72,7 @@ body {
 
 #infographic {
     width: 500px;
-    height: 500px;
-    float: right;
+    height: 400px;
 }
 
 .hexrow2 {

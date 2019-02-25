@@ -36,8 +36,8 @@ html {
     flex-direction: column;
     padding: 20px;
     background-image: url(../images/hexagon.svg);
-    height: 150px;
-    width: 150px;
+    height: 152px;
+    width: 135px;
     background-size:contain;
     background-repeat: no-repeat;
     justify-content: center;
@@ -54,8 +54,7 @@ html {
 }
 
 .hexagon:hover {
-    height: 200px;
-    width: 200px;
+    transform: scale(1.5);
 }
 
 .hexagon:hover p {

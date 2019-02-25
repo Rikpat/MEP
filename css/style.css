@@ -73,31 +73,28 @@ html {
     padding: 10px;
 }
 
-.hexagon.row2, .doublehex.row2 {
+.hexrow2 {
     top: 135px;
-}
-
-.hexagon.row3 {
-    top: 260px;
-}
-
-.hexagon.col2 {
-    left: 145px;
-}
-
-.hexagon.row2.col1 {
     left: 72px;
 }
 
-.hexagon.row2.col2 {
+.hexrow3 {
+    top: 260px;
+}
+
+.hexcol2 {
+    left: 145px;
+}
+
+.hexrow2.hexcol2 {
     left: 217px;
 }
 
-.hexagon.col3 {
+.hexcol3 {
     left: 290px;
 }
 
-.hexagon.row2.col3 {
+.hexrow2.hexcol3 {
     left: 363px;
 }
 
@@ -105,13 +102,8 @@ html {
     position: absolute;
     background-image: url(../images/double-hex.svg);
     background-position:center;
-    height: 300px;
-    width: 200px;
+    height: 276px;
+    width: 208px;
     background-repeat: no-repeat;
     background-size: contain;
-    transform: scaleX(-1);
-}
-
-.doublehex p {
-    rotation: 330deg;
 }

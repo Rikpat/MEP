@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -56,120 +56,22 @@
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-12 text-center">
-				<h1>DevOps</h1>
-				<p>What is DevOps? Nobody knows. It's mysterious. That's why we use it. 
-				<br>"What do you do?" "DevOps" "Wow! Is that something in accounting?" [Short explanation of DevOps]
+			<div class="col-6 text-left">
+				<h1>What is Modern Engineering?</h1>
+				<p>We provide foundations of digital transformation by adopting Agile & DevOps practices with Cloud Native Architecture, while constantly introducing new and improved accelerators to help you to excel in the fast-changing IT environment. 
 				</p>
 			</div>
-		</div>
-	</div>
-</section>
-<hr>
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h1>Tools</h1>
-				<p>DevOps tools we're using [Place some tools here, Azure, Azure DevOps, Teams?, keep it to 3-4 tools max]</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<!-- use this type of list, or use the image-small-inset which is on the bottom, to place the text inside the image -->
-	<div class="container mt-2">
-		<div class="row">
-			<div class="col-md-4 col-12">
-				<ul class="list-unstyled">
-					<li class="media">
-						<img class="image-small mr-3" src="images/image1.jpg" alt="Avanade placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0 mb-1">Lines!</h5>
-							 Not straight! Crooked! 
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-4 col-12">
-				<ul class="list-unstyled">
-					<li class="media">
-						<img class="image-small mr-3" src="images/image2.jpg" alt="Avanade placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0 mb-1">We have meetings!</h5>
-							Lots of them! Daily scrums! Monthly connect!
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-4 col-12">
-				<ul class="list-unstyled">
-					<li class="media">
-						<img class="image-small mr-3" src="images/image3.jpg" alt="Avanade placeholder image">
-						<div class="media-body">
-							<h5 class="mt-0 mb-1">We work with modern stuff!</h5>
-							This isn't it! We've never used AR goggles for anything! 
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
-<hr>
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h1>Our Work</h1>
-				<p>We work on the cloud. It's good that it doesn't rain often. [Put categories up with big pictures, like Automation as a Service, and then specific accelerators and stuff down there, with links to their sharepoint sites on click on image]</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-12 text-center image-large-inset"> <img class="img-fluid" src="images/cloud.png" alt="Man on a cloud">
-				<div>
-					<h4>We work with Azure because we are Avanade</h4>
-					<h6>So tell me why did I have to watch 10 hours of AWS videos</h6>
-				</div>
-			</div>
-			<div class="col-md-6 col-12 text-center mt-md-0 mt-2 image-large-inset"> <img class="img-fluid" src="images/accelerator.png" alt="Cloud on a ladder">
-				<div>
-					<h4>We build accelerators</h4>
-					<h6>We help you speed up your way to the cloud, just like this ladder</h6>
+			<div class="col-6">
+				<div id="infographic">
+					<div class="hexagon">
+						<img src="" alt="" />
+						<p></p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<hr>
-		<div class="row mt-2">
-			<div class="col-md-3 col-6 image-small-inset"><img class="img-fluid float-right" src="images/Cloud-orange.png" alt=""><p>SmartHotel 360 Accelerator</p></div>
-			<div class="col-md-3 col-6 image-small-inset"><img class="img-fluid float-left" src="images/Cloud-orange.png" alt=""><p>Contoso University Accelerator</p></div>
-			<div class="col-md-3 col-6 mt-md-0 mt-1 image-small-inset"><img class="img-fluid float-right" src="images/Cloud2.png" alt=""><p>Some stuff</p></div>
-			<div class="col-md-3 col-6 mt-md-0 mt-1 image-small-inset"><img class="img-fluid float-left" src="images/image1.jpg" alt=""><p>More stuff, like really more, just to test multiline stuff</p></div>
-		</div>
 	</div>
 </section>
-<hr>
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h2>Interested?</h2>
-				<p>Good. [Maybe make this more professional, like like: for more information visit sharepoint or whatever]</p>
-				<a href="https://avanade.sharepoint.com/sites/MEP/" class="btn btn-avanade">View our Sharepoint site</a>
-			</div>
-		</div>
-	</div>
-</section>
-<br>
-<footer class="text-center" id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<p> I've used some of avanades photos from branding section of sharepoint. [Copyright? put something here]</p>
-			</div>
-		</div>
-	</div>
-</footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-3.3.1.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
@@ -197,7 +99,7 @@
 	  window.requestAnimationFrame(moveBackground);
 	}
 
-	$(".jumbotron").on('mousemove click', function(e) {
+	$("body").on('mousemove click', function(e) {
 
 	  var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
 	  var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));

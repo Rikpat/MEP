@@ -1,3 +1,7 @@
+html {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif!important; 
+}
+
 #navbar, #footer {
 	background-color: #FF5800;
 	color: white;

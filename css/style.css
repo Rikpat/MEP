@@ -49,6 +49,10 @@ body {
     text-align: center;
 }
 
+.hexagon h3 {
+    color: #FF5800;
+}
+
 .hexagon img {
     width: auto;
     height: 50%;
@@ -77,27 +81,31 @@ body {
 
 .hexrow2 {
     left: 0;
-    top: 125px;
+    top: 124px;
 }
 
 .hexrow3 {
-    top: 250px;
+    top: 248px;
+}
+
+.hexcol2.hexrow2 {
+    left: 216px;
 }
 
 .hexcol2 {
-    left: 217px;
+    left: 144px;
 }
 
-.hexrow2.hexcol2 {
-    left: 145px;
+.hexcol3.hexrow2 {
+    left: 360px;
 }
 
 .hexcol3 {
-    left: 363px;
+    left: 288px;
 }
 
-.hexrow2.hexcol3 {
-    left: 290px;
+.hexcol4 {
+    left: 432px;
 }
 
 .doublehex {

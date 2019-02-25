@@ -32,8 +32,8 @@ body {
 }
 
 .hexagon, #mep{
-    left: 0px;
-    top: 0px;
+    left: 20px;
+    top: 10px;
     transition: .3s linear all;
     position: absolute;
     display: inline-flex;
@@ -71,38 +71,38 @@ body {
 }
 
 #infographic {
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 420px;
     position: relative;
 }
 
 .hexrow2 {
-    left: 72px;
-    top: 124px;
+    left: 92px;
+    top: 134px;
 }
 
 .hexrow3 {
-    top: 248px!important;
+    top: 258px!important;
 }
 
 .hexcol2.hexrow2 {
-    left: 216px;
+    left: 236px;
 }
 
 .hexcol2 {
-    left: 144px;
+    left: 164px;
 }
 
 .hexcol3.hexrow2 {
-    left: 360px;
+    left: 380px;
 }
 
 .hexcol3 {
-    left: 288px;
+    left: 308px;
 }
 
 .hexcol4 {
-    left: 432px;
+    left: 452px;
 }
 
 .doublehex {

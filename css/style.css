@@ -32,6 +32,7 @@ body {
 }
 
 .hexagon {
+    left: 72px;
     position: absolute;
     display: inline-flex;
     flex-direction: column;
@@ -40,7 +41,7 @@ body {
     background-position: center;
     height: 150px;
     width: 135px;
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     justify-content: center;
     align-content: center;
@@ -70,32 +71,31 @@ body {
     width: 500px;
     height: 500px;
     float: right;
-    padding: 10px;
 }
 
 .hexrow2 {
-    top: 135px;
-    left: 72px;
+    left: 0;
+    top: 125px;
 }
 
 .hexrow3 {
-    top: 260px;
+    top: 250px;
 }
 
 .hexcol2 {
-    left: 145px;
-}
-
-.hexrow2.hexcol2 {
     left: 217px;
 }
 
+.hexrow2.hexcol2 {
+    left: 145px;
+}
+
 .hexcol3 {
-    left: 290px;
+    left: 363px;
 }
 
 .hexrow2.hexcol3 {
-    left: 363px;
+    left: 290px;
 }
 
 .doublehex {

@@ -73,6 +73,7 @@ body {
 #infographic {
     width: 500px;
     height: 400px;
+    position: relative;
 }
 
 .hexrow2 {
@@ -81,7 +82,7 @@ body {
 }
 
 .hexrow3 {
-    top: 248px;
+    top: 248px!important;
 }
 
 .hexcol2.hexrow2 {

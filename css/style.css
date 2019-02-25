@@ -31,9 +31,8 @@ body {
 	color: white;
 }
 
-.hexagon {
+.hexagon, #mep{
     transition: .3s linear all;
-    left: 72px;
     position: absolute;
     display: inline-flex;
     flex-direction: column;
@@ -47,10 +46,6 @@ body {
     justify-content: center;
     align-content: center;
     text-align: center;
-}
-
-.hexagon h3 {
-    color: #FF5800;
 }
 
 .hexagon img {
@@ -80,7 +75,7 @@ body {
 }
 
 .hexrow2 {
-    left: 0;
+    left: 72px;
     top: 124px;
 }
 
@@ -116,4 +111,10 @@ body {
     width: 208px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+
+#mep {
+    background-image: url(../images/hexagon-orange.svg);
+    color: #FF5800;
 }

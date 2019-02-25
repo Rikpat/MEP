@@ -32,6 +32,7 @@ html {
 }
 
 .hexagon {
+    position: absolute;
     display: inline-flex;
     flex-direction: column;
     padding: 20px;
@@ -61,4 +62,39 @@ html {
 
 .hexagon:hover p {
     display: block;
+}
+
+#infographic {
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding: 10px;
+}
+
+.hexagon.row2 {
+    top: 100px;
+}
+
+.hexagon.row3 {
+    top: 200px;
+}
+
+.hexagon.col2 {
+    left: 100px;
+}
+
+.hexagon.row2.col1 {
+    left: 50px;
+}
+
+.hexagon.row2.col2 {
+    left: 150px;
+}
+
+.hexagon.col3 {
+    left: 200px;
+}
+
+.hexagon.row2.col3 {
+    left: 250px;
 }

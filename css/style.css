@@ -15,6 +15,11 @@ body {
 	height: 100%;
 	z-index: -1;
 }
+
+#ingredients {
+    background-color: #E5E5E5;
+}
+
 .btn-avanade {
 	background-color: #FF5800;
 	color: white;

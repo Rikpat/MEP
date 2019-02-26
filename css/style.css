@@ -19,8 +19,12 @@ body {
 
 #ingredients {
     background-color: #E5E5E5;
-    height: 420px;
-    width: 600px;
+    height: 500px;
+}
+
+#ingredients col2 {
+    background-color: white;
+    height: 300px;
 }
 
 .container {

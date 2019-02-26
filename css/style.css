@@ -4,6 +4,7 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
 #jumboman {
 	position: absolute;
 	top: 0;
@@ -18,7 +19,12 @@ body {
 
 #ingredients {
     background-color: #E5E5E5;
-    height: 400px;
+    height: 420px;
+    width: 600px;
+}
+
+.container {
+    color: white;
 }
 
 .btn-avanade {
